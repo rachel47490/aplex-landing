@@ -1,0 +1,15 @@
+.card {
+  padding: var(--space-6);
+  background-color: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+
+.card__title {
+  margin-block-end: var(--space-3);
+}
+
+.card__text {
+  color: var(--color-text-muted);
+}

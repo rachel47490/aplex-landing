@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Design tokens - the ONLY file allowed to contain raw values.
+   Everything else must reference these with var(--token).
+
+   Breakpoints (media queries cannot read custom properties, so these two
+   values are repeated in the @media rules and must stay in sync):
+     --bp-md: 48rem  (768px)
+     --bp-lg: 64rem  (1024px)
+   ========================================================================== */
+:root {
+  /* Color */
+  --color-primary: #2438a6;
+  --color-primary-hover: #1a2a80;
+  --color-on-primary: #ffffff;
+  --color-ink: #14213d;
+  --color-text: #1b2438;
+  --color-text-muted: #4a5568;
+  --color-surface: #fbfcfe;
+  --color-surface-alt: #eef2f9;
+  --color-surface-inverse: #14213d;
+  --color-on-inverse: #e8edf7;
+  --color-border: #d5dcea;
+  --color-focus: #f2b134;
+
+  /* Typography */
+  --font-family-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-family-heading: Georgia, "Times New Roman", serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-heading: clamp(1.75rem, 1.2rem + 2vw, 2.5rem);
+  --font-size-display: clamp(2.25rem, 1.4rem + 4vw, 4rem);
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.15;
+  --line-height-base: 1.6;
+  --measure: 60ch;
+
+  /* Spacing scale (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+  /* Shape */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --border-width: 1px;
+  --border-width-thick: 2px;
+  --shadow-card: 0 0.125rem 0.5rem rgba(20, 33, 61, 0.08);
+
+  /* Layout */
+  --container-max: 75rem;
+  --tap-target: 2.75rem;
+  --toggle-bar-height: 0.125rem;
+  --toggle-bar-width: 1.5rem;
+  --cols-md: 2;
+  --cols-lg: 3;
+  --z-header: 100;
+
+  /* Motion */
+  --transition-fast: 150ms ease;
+}

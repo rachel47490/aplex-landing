@@ -1,0 +1,21 @@
+.cta {
+  padding-block: var(--space-16);
+  background-color: var(--color-surface-inverse);
+  color: var(--color-on-inverse);
+}
+
+.cta__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.cta__title {
+  max-width: var(--measure);
+  color: var(--color-on-inverse);
+}
+
+.cta__text {
+  max-width: var(--measure);
+}
